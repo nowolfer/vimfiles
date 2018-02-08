@@ -14,11 +14,12 @@ endif
 call plug#begin('~/.vim/plugged')
 
 " Colorschemes
-Plug 'captbaritone/molokai'
+Plug 'vim-scripts/molokai'
 
 " Fancy statusline
 Plug 'bling/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'fatih/vim-go'
 
 filetype plugin indent on                   " required!
 call plug#end()
