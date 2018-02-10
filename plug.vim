@@ -14,7 +14,7 @@ endif
 call plug#begin('~/.vim/plugged')
 
 " Colorschemes
-Plug 'vim-scripts/molokai'
+Plug 'tomasr/molokai'
 
 " Fancy statusline
 Plug 'bling/vim-airline'
